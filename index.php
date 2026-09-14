@@ -83,11 +83,18 @@
         <div class="qr-section">
             <h2>📱 Scan QR Code to Open on Phone</h2>
             <div class="qr-code">
-                <img src="assets/images/qr-code.png" alt="QR Code" style="max-width: 100%; height: auto;" onerror="this.style.display='none'">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=http://localhost/Ar_Food_Menu/index.php" 
+                     alt="QR Code" 
+                     style="max-width: 100%; height: auto;"
+                     onerror="this.src='assets/images/qr-code.png'">
             </div>
             <p>Open camera and scan to access on your mobile device</p>
             <p style="margin-top: 10px; font-size: 0.9rem; color: #888;">
-                Or visit: <strong><?php echo $_SERVER['HTTP_HOST']; ?></strong>
+                Or visit: <strong><?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/Ar_Food_Menu/index.php'; ?></strong>
+            </p>
+            <p style="margin-top: 10px;">
+                <a href="qr-generator.php" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">🔄 生成新QR碼</a>
+                <a href="qr-setup-guide.php" style="color: #1dd1a1; margin-left: 15px;">📖 需要幫助？</a>
             </p>
         </div>
 

@@ -1,0 +1,17 @@
+{
+  "kind": "agnes_image",
+  "mode": "text_to_image",
+  "model": "agnes-image-2.1-flash",
+  "original_prompt": "Generate a QR code for http://localhost/Ar_Food_Menu/index.php",
+  "enhanced_prompt": "Generate a professional, high-contrast QR code that encodes the URL \"http://localhost/Ar_Food_Menu/index.php\". The QR code should be:\n- Perfect square format (1:1 aspect ratio)\n- High contrast with black modules on white background\n- Bold, thick modules for easy scanning\n- No text or logos inside the QR code\n- Clean, minimalist design\n- Suitable for printing and mobile scanning\n- Professional appearance for a restaurant AR food menu application\n- Size: 1024x1024 pixels",
+  "size": "1K",
+  "remote_url": "https://platform-outputs.agnes-ai.space/images/t2i/6ba78cd14fe94ab88e99c21a28cb97b9.png",
+  "local_path": "C:\\xampp\\htdocs\\AR_Food_Menu\\.agnes\\artifacts\\images\\agnes-image-20260914-023909-01a09dc85fba75c380ec763a71404808.png",
+  "metadata_path": "C:\\xampp\\htdocs\\AR_Food_Menu\\.agnes\\artifacts\\images\\agnes-image-20260914-023909-01a09dc85fba75c380ec763a71404808.json",
+  "mime_type": "image/png",
+  "width": 1024,
+  "height": 1024,
+  "bytes": 582161,
+  "preview": null,
+  "created_at": "2026-09-14T02:39:09.754410600+00:00"
+}
